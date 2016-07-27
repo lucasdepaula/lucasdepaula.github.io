@@ -1,0 +1,168 @@
+/* 
+Theme Name: Lucas de Paula GitHub Page
+Author: Lucas de Paula
+ */
+/* Widths */
+/* Grid */
+/* Colors */
+/* Sizes  */
+/* Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*custom*/
+@font-face {
+  font-family: "UbuntuRegular";
+  src: url("../fonts/regular.woff") format("woff"), url("../fonts/regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "UbuntuLight";
+  src: url("../fonts/light.woff") format("woff"), url("../fonts/light.ttf") format("truetype"); }
+@font-face {
+  font-family: "UbuntuBold";
+  src: url("../fonts/bold.woff") format("woff"), url("../fonts/bold.ttf") format("truetype"); }
+@font-face {
+  font-family: "UbuntuItalic";
+  src: url("../fonts/italic.woff") format("woff"), url("../fonts/italic.ttf") format("truetype"); }
+body {
+  font-family: "UbuntuRegular";
+  font-size: 16px; }
+
+strong, .strong, .bold {
+  font-family: "UbuntuBold"; }
+
+em, .em, .italic {
+  font-family: "UbuntuItalic"; }
+
+.container {
+  width: 280px;
+  display: block;
+  margin: 0 auto; }
+  .container img {
+    max-width: 100%; }
+
+.g-2, .g-4, .g-6, .g-8 {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 1%; }
+
+.g-2 {
+  width: 16.66%; }
+
+.g-4 {
+  width: 32.33%; }
+
+.g-6 {
+  width: 50%; }
+
+.g-8 {
+  width: 65.66%; }
+
+h1 {
+  font-size: 36px; }
+
+h2 {
+  font-size: 32px; }
+
+h3 {
+  font-size: 28px; }
+
+h4 {
+  font-size: 20px; }
+
+h1, h2, h3, h4 {
+  margin-bottom: 0.75em;
+  margin-top: 0.75em; }
+
+p {
+  margin-bottom: 1.5em;
+  line-height: 1.3em; }
+
+ol, ul {
+  margin: 1em 0; }
+
+ol li {
+  margin-bottom: 0.75em;
+  margin-top: 0.75em;
+  line-height: 1.3em; }
+
+ul li {
+  line-height: 1.3em;
+  margin: 0.5em 0; }
+
+nav.menu ul li {
+  margin: 1px 0;
+  transition: background-color 0.5s, color 0.5s; }
+  nav.menu ul li a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 10px; }
+
+nav.menu ul li:hover {
+  background-color: #333; }
+  nav.menu ul li:hover a {
+    color: #fff; }
+
+header #mobile_menu {
+  display: inline-block;
+  border: 1px solid #333;
+  background-color: #eee;
+  color: #000;
+  padding: 5px;
+  text-decoration: none;
+  float: right;
+  margin-top: -65px; }
+
+header nav ul {
+  /* display:none; */
+  transition: display 1s; }
+
+header nav:hover ul {
+  display: block;
+  transition: display 1s; }
+
+/*# sourceMappingURL=style.css.map */

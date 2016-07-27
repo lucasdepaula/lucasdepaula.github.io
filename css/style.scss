@@ -1,0 +1,226 @@
+/* 
+Theme Name: Lucas de Paula GitHub Page
+Author: Lucas de Paula
+ */
+
+/* Widths */
+$separator-color: #EEE;
+
+/* Grid */
+$grid-12: 100%;
+$grid-2: 16.66%;
+$grid-6: 50%;
+$grid-4: 32.33%;
+$grid-8: 65.66%;
+
+/* Colors */
+$container-xs: 280px;
+
+$fregular: 'UbuntuRegular';
+$fitalic: 'UbuntuItalic';
+$fbold: 'UbuntuBold';
+$flight: 'UbuntuLight';
+
+/* Sizes  */
+$base: 16px;
+$h1size: floor($base*2.3);
+$h2size: floor($base*2.0);
+$h3size: ceil($base*1.7);
+$h4size: ceil($base*1.25);
+
+
+/* Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*custom*/
+
+@font-face{ 
+	font-family: $fregular;
+	src: url('../fonts/regular.woff') format('woff'),
+	     url('../fonts/regular.ttf') format('truetype');
+}
+
+@font-face{ 
+	font-family: $flight;
+	src: url('../fonts/light.woff') format('woff'),
+	     url('../fonts/light.ttf') format('truetype');
+}
+
+@font-face{ 
+	font-family: $fbold;
+	src: url('../fonts/bold.woff') format('woff'),
+	     url('../fonts/bold.ttf') format('truetype');
+}
+
+@font-face{ 
+	font-family: $fitalic;
+	src: url('../fonts/italic.woff') format('woff'),
+	     url('../fonts/italic.ttf') format('truetype');
+}
+
+body {
+	font-family: $fregular;
+	font-size: $base;
+}
+
+strong, .strong, .bold {
+	font-family: $fbold;
+}
+
+em, .em, .italic {
+	font-family: $fitalic;
+}
+
+.container {
+	width: $container-xs;
+	display: block;
+	margin:0 auto;
+
+	img {
+		max-width: 100%;
+	}
+}
+
+.g-2,.g-4,.g-6,.g-8 {
+	display: inline-block;
+	vertical-align:top;
+	margin-right: 1%;
+}
+.g-2 {
+	width: $grid-2;
+}
+.g-4 {
+	width: $grid-4;
+}
+.g-6 {
+	width: $grid-6;
+}
+.g-8 {
+	width: $grid-8;
+}
+
+h1 {
+	font-size: $h1size;
+}
+h2 {
+	font-size:$h2size;
+}
+h3 {
+	font-size:$h3size;
+}
+h4 {
+	font-size:$h4size;
+}
+
+h1,h2,h3,h4 {
+	margin-bottom:0.75em;
+	margin-top: 0.75em;
+}
+
+p {
+	margin-bottom:1.5em;
+	line-height:1.3em;
+}
+
+ol, ul {
+	margin: 1em 0;
+}
+
+ol li {
+	margin-bottom: 0.75em;
+	margin-top: 0.75em;
+	line-height: 1.3em;
+}
+
+ul li {
+	line-height:1.3em;
+	margin: 0.5em 0;
+}
+
+nav.menu ul li {
+	margin:1px 0;
+	a {
+		color: #333;
+		text-decoration:none;
+		display: block;
+		padding: 10px;
+	}
+	
+	transition: background-color 0.5s, color 0.5s;
+}
+nav.menu ul li:hover {
+	background-color:#333;
+	
+	a {
+		color: #fff;
+	}
+}
+
+
+header #mobile_menu {
+	display: inline-block;
+	border:1px solid #333;
+	background-color:#eee;
+	color: #000;
+	padding: 5px;
+	text-decoration:none;
+	float: right;
+	margin-top: -65px;
+}
+header nav ul {
+	/* display:none; */
+	transition: display 1s;
+}
+
+header nav:hover ul {
+	display: block;
+	transition: display 1s; 
+}
