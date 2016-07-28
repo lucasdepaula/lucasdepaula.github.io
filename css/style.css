@@ -102,13 +102,13 @@ em, .em, .italic {
   width: 65.66%; }
 
 h1 {
-  font-size: 36px; }
+  font-size: 28px; }
 
 h2 {
-  font-size: 32px; }
+  font-size: 24px; }
 
 h3 {
-  font-size: 28px; }
+  font-size: 22px; }
 
 h4 {
   font-size: 20px; }
@@ -164,5 +164,24 @@ header nav ul {
 header nav:hover ul {
   display: block;
   transition: display 1s; }
+
+article.portfolio-archive {
+  padding: 15px 0;
+  border-bottom: 1px solid #eee; }
+  article.portfolio-archive img {
+    display: block;
+    margin: 10px auto; }
+  article.portfolio-archive h3 {
+    text-align: center; }
+    article.portfolio-archive h3 a {
+      color: #333;
+      text-decoration: none; }
+      article.portfolio-archive h3 a:hover {
+        color: #666;
+        text-decoration: underline; }
+  article.portfolio-archive .excerpt {
+    text-align: justify; }
+    article.portfolio-archive .excerpt p {
+      margin-bottom: 0; }
 
 /*# sourceMappingURL=style.css.map */

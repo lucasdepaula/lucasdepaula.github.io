@@ -23,9 +23,9 @@ $flight: 'UbuntuLight';
 
 /* Sizes  */
 $base: 16px;
-$h1size: floor($base*2.3);
-$h2size: floor($base*2.0);
-$h3size: ceil($base*1.7);
+$h1size: floor($base*1.75);
+$h2size: floor($base*1.5);
+$h3size: ceil($base*1.375);
 $h4size: ceil($base*1.25);
 
 
@@ -223,4 +223,30 @@ header nav ul {
 header nav:hover ul {
 	display: block;
 	transition: display 1s; 
+}
+
+article.portfolio-archive {
+	padding: 15px 0;
+	border-bottom: 1px solid #eee;
+	img {
+		display: block;
+		margin: 10px auto;
+	}
+	h3 {
+		text-align:center;
+			a {
+				color: #333;
+				text-decoration:none;
+				&:hover {
+					color: #666;
+					text-decoration: underline;
+				}
+			}
+		}
+	.excerpt {
+		text-align: justify;
+		p {
+			margin-bottom:0;
+		}
+	}
 }

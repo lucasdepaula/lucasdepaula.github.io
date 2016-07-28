@@ -2,3 +2,15 @@
 layout: default
 permalink: /portfolio/
 ---
+
+{% for post in site.posts %}
+	{% if post.categories contains 'portfolio' %}
+	<article class="portfolio-archive">
+		<img class="responsive-image" src="{{ post.featured }}" alt="">
+		<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+		<div class="excerpt">
+			{{ post.excerpt }}
+		</div>
+	</article>
+	{% endif %}
+{% endfor %}

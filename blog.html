@@ -4,10 +4,12 @@ permalink: /blog/
 ---
 
 {% for post in site.posts %}
+	{% if post.categories contains 'blog' %}
 	<article>
 		<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 		<div class="excerpt">
 			{{ post.excerpt }}
 		</div>
 	</article>
+	{% endif %}
 {% endfor %}
