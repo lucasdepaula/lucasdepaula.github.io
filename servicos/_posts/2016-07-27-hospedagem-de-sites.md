@@ -4,7 +4,12 @@ title: "Hospedagem de Sites"
 categories: servicos
 chamada: "Tenha seu site online e acessível aos seus clientes com meu serviço de hospedagem de sites!"
 permalink: /servicos/hospedagem-de-sites/
+ico: /images/servicos/hosting.png
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum repudiandae mollitia nam dolore quis eligendi debitis fuga reiciendis rem, reprehenderit, veniam porro ullam voluptates nemo labore, nulla quos nihil libero!
+Mantenha seu site online com meu serviço de hospedagem. Temos desde planos mais básicos para sites de pequeno porte até dedicados para sites de grande porte. Além disso, contamos com hospedagem em VPS, uma alternativa mais barata, e também dedicada, para sites de porte médio, garantindo um uptime satisfatório.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, delectus, debitis. Hic qui amet sunt ex dicta, modi minima ipsam quia ut, debitis excepturi harum quas est aliquid iste iusto.
+Clientes:
+- Fix Comércio  
+- Lucas na Web  
+- Fix Shop  
+- Studio Inovart

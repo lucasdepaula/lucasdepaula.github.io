@@ -4,7 +4,10 @@ title: "E-mail Marketing"
 categories: servicos
 chamada: "Ficar mais próximo dos clientes se tornou mais prático com o envio de mensagens de email marketing. Saiba mais!"
 permalink: /servicos/email-marketing/
+ico: /images/servicos/email.png
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum repudiandae mollitia nam dolore quis eligendi debitis fuga reiciendis rem, reprehenderit, veniam porro ullam voluptates nemo labore, nulla quos nihil libero!
+Com o serviço de e-mail marketing você consegue manter um contato próximo dos seus clientes, enviar promoções e novidades e até mesmo aumentar suas vendas.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, delectus, debitis. Hic qui amet sunt ex dicta, modi minima ipsam quia ut, debitis excepturi harum quas est aliquid iste iusto.
+Ao contratar o serviço, o cliente pode optar por ter um designer (responsável pela criação das peças de suas campanhas), ou apenas pela ferramenta de disparo de e-mails.
+
+A ferramenta de disparo possui um limite mensal de disparos e assinantes. Consulte os limites do seu plano.

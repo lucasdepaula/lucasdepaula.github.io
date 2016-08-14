@@ -15,6 +15,9 @@ $grid-8: 65.66%;
 
 /* Colors */
 $container-xs: 280px;
+$container-sm: 420px;
+$container-md: 600px;
+$container-bg: 960px;
 
 $fregular: 'UbuntuRegular';
 $fitalic: 'UbuntuItalic';
@@ -225,6 +228,13 @@ header nav:hover ul {
 	transition: display 1s; 
 }
 
+footer {
+	padding: 10px 0;
+	margin: 40px 0 10px;
+	border-top:1px solid #ccc;
+	text-align:center;
+}
+
 article.portfolio-archive {
 	padding: 15px 0;
 	border-bottom: 1px solid #eee;
@@ -247,6 +257,130 @@ article.portfolio-archive {
 		text-align: justify;
 		p {
 			margin-bottom:0;
+		}
+	}
+}
+
+.blog article {
+	
+	h3 {
+			a {
+				color: #333;
+				text-decoration:none;
+				&:hover {
+					color: #666;
+					text-decoration: underline;
+				}
+			}
+		}
+	.excerpt {
+		text-align: justify;
+		p {
+			margin-bottom:0;
+		}
+	}
+}
+
+.servicos article {
+	h3 {
+			a {
+				color: #333;
+				text-decoration:none;
+				&:hover {
+					color: #666;
+					text-decoration: underline;
+				}
+			}
+		}
+}
+
+.servicos .servicos-archive {
+	margin-bottom:50px;
+}
+
+.portfolio-item img {
+	display:block;
+	margin: 20px auto;
+}
+
+/* responsive part */
+
+/* home */
+
+@media screen and (min-width: 450px) {
+	.container {
+		width: $container-sm;
+	}
+	.servicos article {
+		text-align:center;
+		img {
+			margin: 10px auto 10px;
+			display:block;
+			height:auto;
+			width:96px;
+		}
+	}
+	.blog .container > p {
+		margin-bottom: 50px;
+	}
+}
+@media screen and (min-width: 640px) {
+	.container {
+		width: $container-md;
+	}
+	nav.menu ul li {
+		text-align:center;
+	}
+	.portfolio article {
+		width: ($container-md/2)-20px;
+		display: inline-block;
+		vertical-align: top;
+		margin: 9px;
+	}
+	article.portfolio-archive {
+		border-bottom: none;
+	}
+	.servicos article {
+		display: inline-block;
+		vertical-align: top;
+		width: ($container-md/2)-30px;
+		margin: 10px;
+		text-align:left;
+		h3 {
+			text-align:center;
+		}
+		img {
+			margin: 0 auto 10px;
+			display:block;
+			width:108px;
+		}
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.container {
+		width: $container-bg;
+	}
+	.servicos article {
+		text-align:center;
+		width: ($container-bg/3)-30px;
+		margin:13px;
+	}
+	.portfolio article {
+		width: ($container-bg/3)-20px;
+		display: inline-block;
+		vertical-align: top;
+		margin: 8px;
+		padding: 0;
+	}
+	article.portfolio-archive {
+		border-bottom: none;
+	}
+	nav.menu ul {
+		border-bottom:1px solid #ccc;
+		li {
+			padding: 5px 10px;
+			display: inline-block;
 		}
 	}
 }

@@ -165,6 +165,12 @@ header nav:hover ul {
   display: block;
   transition: display 1s; }
 
+footer {
+  padding: 10px 0;
+  margin: 40px 0 10px;
+  border-top: 1px solid #ccc;
+  text-align: center; }
+
 article.portfolio-archive {
   padding: 15px 0;
   border-bottom: 1px solid #eee; }
@@ -183,5 +189,99 @@ article.portfolio-archive {
     text-align: justify; }
     article.portfolio-archive .excerpt p {
       margin-bottom: 0; }
+
+.blog article h3 a {
+  color: #333;
+  text-decoration: none; }
+  .blog article h3 a:hover {
+    color: #666;
+    text-decoration: underline; }
+.blog article .excerpt {
+  text-align: justify; }
+  .blog article .excerpt p {
+    margin-bottom: 0; }
+
+.servicos article h3 a {
+  color: #333;
+  text-decoration: none; }
+  .servicos article h3 a:hover {
+    color: #666;
+    text-decoration: underline; }
+
+.servicos .servicos-archive {
+  margin-bottom: 50px; }
+
+.portfolio-item img {
+  display: block;
+  margin: 20px auto; }
+
+/* responsive part */
+/* home */
+@media screen and (min-width: 450px) {
+  .container {
+    width: 420px; }
+
+  .servicos article {
+    text-align: center; }
+    .servicos article img {
+      margin: 10px auto 10px;
+      display: block;
+      height: auto;
+      width: 96px; }
+
+  .blog .container > p {
+    margin-bottom: 50px; } }
+@media screen and (min-width: 640px) {
+  .container {
+    width: 600px; }
+
+  nav.menu ul li {
+    text-align: center; }
+
+  .portfolio article {
+    width: 280px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 9px; }
+
+  article.portfolio-archive {
+    border-bottom: none; }
+
+  .servicos article {
+    display: inline-block;
+    vertical-align: top;
+    width: 270px;
+    margin: 10px;
+    text-align: left; }
+    .servicos article h3 {
+      text-align: center; }
+    .servicos article img {
+      margin: 0 auto 10px;
+      display: block;
+      width: 108px; } }
+@media screen and (min-width: 1000px) {
+  .container {
+    width: 960px; }
+
+  .servicos article {
+    text-align: center;
+    width: 290px;
+    margin: 13px; }
+
+  .portfolio article {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 8px;
+    padding: 0; }
+
+  article.portfolio-archive {
+    border-bottom: none; }
+
+  nav.menu ul {
+    border-bottom: 1px solid #ccc; }
+    nav.menu ul li {
+      padding: 5px 10px;
+      display: inline-block; } }
 
 /*# sourceMappingURL=style.css.map */

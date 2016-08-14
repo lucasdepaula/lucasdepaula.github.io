@@ -1,11 +1,15 @@
 ---
 layout: default
 permalink: /servicos/
+class: servicos
 ---
-
+<h1>Serviços</h1>
+<p>Trabalho oferecendo serviços de consultoria na parte de TI, com foco em potencializar resultados no dia a dia dos clientes. Confira alguns dos meus serviços.</p>
+<div class="servicos-archive">
 {% for post in site.posts %}
 	{% if post.categories contains 'servicos' %}
 	<article>
+		<img src="{{ post.ico }}" alt="{{ post.chamada }}">
 		<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 		<div class="excerpt">
 			{{ post.chamada }}
@@ -13,3 +17,5 @@ permalink: /servicos/
 	</article>
 	{% endif %}
 {% endfor %}
+</div>
+<p>Não encontrou o que procurava? Entre em <a href="/contato/">contato</a> que a gente conversa! :)</p>
