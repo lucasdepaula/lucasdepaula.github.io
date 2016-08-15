@@ -6,6 +6,7 @@ chamada: "Sua empresa já está presente nas redes sociais do momento? Está con
 permalink: /servicos/gestao-de-redes-sociais/
 ico: /images/servicos/social.png
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum repudiandae mollitia nam dolore quis eligendi debitis fuga reiciendis rem, reprehenderit, veniam porro ullam voluptates nemo labore, nulla quos nihil libero!
+Crie campanhas e aumente seu engajamento com seus clientes com publicações efetivas nas redes sociais! Fidelize seus seguidores com conteúdos constantes e regulares nas suas redes sociais.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, delectus, debitis. Hic qui amet sunt ex dicta, modi minima ipsam quia ut, debitis excepturi harum quas est aliquid iste iusto.
+Clientes:  
+- Igreja São Pedro Nolasco

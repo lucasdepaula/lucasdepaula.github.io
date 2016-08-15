@@ -6,6 +6,6 @@ chamada: "Sua empresa ou campanha ainda não tem site? Quer dar uma repaginada n
 permalink: /servicos/desenvolvimento-de-sites/
 ico: /images/servicos/website.png
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum repudiandae mollitia nam dolore quis eligendi debitis fuga reiciendis rem, reprehenderit, veniam porro ullam voluptates nemo labore, nulla quos nihil libero!
+Crie um site para o seu negócio e tenha já a sua marca online. Conto com o serviço de desenho de layout e também com implementação. Solicite seu orçamento por e-mail.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, delectus, debitis. Hic qui amet sunt ex dicta, modi minima ipsam quia ut, debitis excepturi harum quas est aliquid iste iusto.
+O serviço de desenvolvimento de sites não inclui a hospedagem. Promoções para hospedagem + desenvolvimento + manutenção à parte. Veja as condições.
